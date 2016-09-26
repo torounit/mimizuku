@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "getbasis-drawer@^1.0.1",
+        "scope": null,
+        "escapedName": "getbasis-drawer",
+        "name": "getbasis-drawer",
+        "rawSpec": "^1.0.1",
+        "spec": ">=1.0.1 <2.0.0",
+        "type": "range"
+      },
+      "/home/travis/build/inc2734/mimizuku"
+    ]
+  ],
+  "_from": "getbasis-drawer@>=1.0.1 <2.0.0",
+  "_id": "getbasis-drawer@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/getbasis-drawer",
+  "_nodeVersion": "5.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/getbasis-drawer-1.0.1.tgz_1473523395645_0.9891838969197124"
+  },
+  "_npmUser": {
+    "name": "inc2734",
+    "email": "inc@2inc.org"
+  },
+  "_npmVersion": "3.7.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "getbasis-drawer@^1.0.1",
+    "scope": null,
+    "escapedName": "getbasis-drawer",
+    "name": "getbasis-drawer",
+    "rawSpec": "^1.0.1",
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/getbasis-drawer/-/getbasis-drawer-1.0.1.tgz",
+  "_shasum": "bb34151db5d5248251567133ccccbffc8a7e5060",
+  "_shrinkwrap": null,
+  "_spec": "getbasis-drawer@^1.0.1",
+  "_where": "/home/travis/build/inc2734/mimizuku",
+  "author": {
+    "name": "inc2734"
+  },
+  "bugs": {
+    "url": "https://github.com/getbasis/drawer/issues"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
+  "description": "This is a css module for the Basis.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "bb34151db5d5248251567133ccccbffc8a7e5060",
+    "tarball": "https://registry.npmjs.org/getbasis-drawer/-/getbasis-drawer-1.0.1.tgz"
+  },
+  "gitHead": "66aef29489e6d630cce1d0286a34da4da7f4e5b5",
+  "homepage": "https://github.com/getbasis/drawer#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "inc2734",
+      "email": "inc@2inc.org"
+    }
+  ],
+  "name": "getbasis-drawer",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbasis/drawer.git"
+  },
+  "scripts": {},
+  "version": "1.0.1"
+}

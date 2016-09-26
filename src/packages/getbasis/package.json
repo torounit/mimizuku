@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "getbasis@^1.0.5",
+        "scope": null,
+        "escapedName": "getbasis",
+        "name": "getbasis",
+        "rawSpec": "^1.0.5",
+        "spec": ">=1.0.5 <2.0.0",
+        "type": "range"
+      },
+      "/home/travis/build/inc2734/mimizuku"
+    ]
+  ],
+  "_from": "getbasis@>=1.0.5 <2.0.0",
+  "_id": "getbasis@1.0.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/getbasis",
+  "_nodeVersion": "5.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/getbasis-1.0.5.tgz_1473512596649_0.891605902928859"
+  },
+  "_npmUser": {
+    "name": "inc2734",
+    "email": "inc@2inc.org"
+  },
+  "_npmVersion": "3.7.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "getbasis@^1.0.5",
+    "scope": null,
+    "escapedName": "getbasis",
+    "name": "getbasis",
+    "rawSpec": "^1.0.5",
+    "spec": ">=1.0.5 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/getbasis/-/getbasis-1.0.5.tgz",
+  "_shasum": "6ae8f66152e4243b6a03efbe4a45638cc3a5fb77",
+  "_shrinkwrap": null,
+  "_spec": "getbasis@^1.0.5",
+  "_where": "/home/travis/build/inc2734/mimizuku",
+  "author": {
+    "name": "inc2734"
+  },
+  "bugs": {
+    "url": "https://github.com/getbasis/basis/issues"
+  },
+  "contributors": [
+    {
+      "name": "Toro_Unit"
+    }
+  ],
+  "dependencies": {
+    "normalize.css": "^4.2.0"
+  },
+  "description": "A lightweight responsive Stylus/CSS framework based on flexible box.",
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "cssnano": "^3.7.3",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.5.0",
+    "stylus": "^0.54.5"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6ae8f66152e4243b6a03efbe4a45638cc3a5fb77",
+    "tarball": "https://registry.npmjs.org/getbasis/-/getbasis-1.0.5.tgz"
+  },
+  "gitHead": "cfa28300700eb52380dc0bef4b4f763b8f8d5c61",
+  "homepage": "http://getbasis.github.io/",
+  "keywords": [
+    "css",
+    "stylus",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "license": "MIT",
+  "main": "src/stylus/basis.styl",
+  "maintainers": [
+    {
+      "name": "inc2734",
+      "email": "inc@2inc.org"
+    }
+  ],
+  "name": "getbasis",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbasis/basis.git"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "gulp": "gulp",
+    "release": "gulp release",
+    "stylus": "stylus",
+    "stylus-test": "stylus tests/tests.styl && cat tests/tests.css"
+  },
+  "version": "1.0.5"
+}

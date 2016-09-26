@@ -1,0 +1,21 @@
+.{bs-prefix}c-hero {
+  @extend $bs-hero;
+
+  &--full {
+    height: 100vh;
+  }
+
+  &--cover {
+    bs-background-image-cover();
+  }
+
+  &--overlay {
+    bs-overlay(rgba(0, 0, 0, .7));
+  }
+
+  &--fixed {
+    +bs-bp-lg-only() {
+      bs-background-image-fixed();
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "getbasis-menu@^1.0.1",
+        "scope": null,
+        "escapedName": "getbasis-menu",
+        "name": "getbasis-menu",
+        "rawSpec": "^1.0.1",
+        "spec": ">=1.0.1 <2.0.0",
+        "type": "range"
+      },
+      "/home/travis/build/inc2734/mimizuku"
+    ]
+  ],
+  "_from": "getbasis-menu@>=1.0.1 <2.0.0",
+  "_id": "getbasis-menu@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/getbasis-menu",
+  "_nodeVersion": "5.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/getbasis-menu-1.0.1.tgz_1471485040217_0.05199479800648987"
+  },
+  "_npmUser": {
+    "name": "inc2734",
+    "email": "inc@2inc.org"
+  },
+  "_npmVersion": "3.7.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "getbasis-menu@^1.0.1",
+    "scope": null,
+    "escapedName": "getbasis-menu",
+    "name": "getbasis-menu",
+    "rawSpec": "^1.0.1",
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/getbasis-menu/-/getbasis-menu-1.0.1.tgz",
+  "_shasum": "e6a7c3e2a65546ec6e16feb16339b55f47174eee",
+  "_shrinkwrap": null,
+  "_spec": "getbasis-menu@^1.0.1",
+  "_where": "/home/travis/build/inc2734/mimizuku",
+  "author": {
+    "name": "inc2734"
+  },
+  "bugs": {
+    "url": "https://github.com/getbasis/menu/issues"
+  },
+  "dependencies": {},
+  "description": "This is a css module for The Basis.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "e6a7c3e2a65546ec6e16feb16339b55f47174eee",
+    "tarball": "https://registry.npmjs.org/getbasis-menu/-/getbasis-menu-1.0.1.tgz"
+  },
+  "gitHead": "fe4fff4f6f01fb69d037bd8157c271febb468488",
+  "homepage": "https://github.com/getbasis/menu#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "inc2734",
+      "email": "inc@2inc.org"
+    }
+  ],
+  "name": "getbasis-menu",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbasis/menu.git"
+  },
+  "scripts": {},
+  "version": "1.0.1"
+}

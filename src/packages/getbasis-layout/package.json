@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "getbasis-layout@^1.0.1",
+        "scope": null,
+        "escapedName": "getbasis-layout",
+        "name": "getbasis-layout",
+        "rawSpec": "^1.0.1",
+        "spec": ">=1.0.1 <2.0.0",
+        "type": "range"
+      },
+      "/home/travis/build/inc2734/mimizuku"
+    ]
+  ],
+  "_from": "getbasis-layout@>=1.0.1 <2.0.0",
+  "_id": "getbasis-layout@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/getbasis-layout",
+  "_nodeVersion": "5.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/getbasis-layout-1.0.1.tgz_1471485001104_0.8787745791487396"
+  },
+  "_npmUser": {
+    "name": "inc2734",
+    "email": "inc@2inc.org"
+  },
+  "_npmVersion": "3.7.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "getbasis-layout@^1.0.1",
+    "scope": null,
+    "escapedName": "getbasis-layout",
+    "name": "getbasis-layout",
+    "rawSpec": "^1.0.1",
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/getbasis-layout/-/getbasis-layout-1.0.1.tgz",
+  "_shasum": "922236619568460499fc212cf71249ab1ce08a37",
+  "_shrinkwrap": null,
+  "_spec": "getbasis-layout@^1.0.1",
+  "_where": "/home/travis/build/inc2734/mimizuku",
+  "author": {
+    "name": "inc2734"
+  },
+  "bugs": {
+    "url": "https://github.com/getbasis/layout/issues"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
+  "description": "This is a css module for the Basis.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "922236619568460499fc212cf71249ab1ce08a37",
+    "tarball": "https://registry.npmjs.org/getbasis-layout/-/getbasis-layout-1.0.1.tgz"
+  },
+  "gitHead": "01e0fe9da335ccf966bb765c3b04aa492dbb0f71",
+  "homepage": "https://github.com/getbasis/layout#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "inc2734",
+      "email": "inc@2inc.org"
+    }
+  ],
+  "name": "getbasis-layout",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbasis/layout.git"
+  },
+  "scripts": {},
+  "version": "1.0.1"
+}

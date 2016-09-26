@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "getbasis-hamburger-btn@^1.0.0",
+        "scope": null,
+        "escapedName": "getbasis-hamburger-btn",
+        "name": "getbasis-hamburger-btn",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "/home/travis/build/inc2734/mimizuku"
+    ]
+  ],
+  "_from": "getbasis-hamburger-btn@>=1.0.0 <2.0.0",
+  "_id": "getbasis-hamburger-btn@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/getbasis-hamburger-btn",
+  "_nodeVersion": "5.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/getbasis-hamburger-btn-1.0.0.tgz_1471484745518_0.6340217797551304"
+  },
+  "_npmUser": {
+    "name": "inc2734",
+    "email": "inc@2inc.org"
+  },
+  "_npmVersion": "3.7.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "getbasis-hamburger-btn@^1.0.0",
+    "scope": null,
+    "escapedName": "getbasis-hamburger-btn",
+    "name": "getbasis-hamburger-btn",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/getbasis-hamburger-btn/-/getbasis-hamburger-btn-1.0.0.tgz",
+  "_shasum": "7e7d9ce92c474b1cb9402eda09e7e7b2c54c2bae",
+  "_shrinkwrap": null,
+  "_spec": "getbasis-hamburger-btn@^1.0.0",
+  "_where": "/home/travis/build/inc2734/mimizuku",
+  "author": {
+    "name": "inc2734"
+  },
+  "bugs": {
+    "url": "https://github.com/getbasis/hamburger-btn/issues"
+  },
+  "dependencies": {},
+  "description": "This is a css module for the Basis.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "7e7d9ce92c474b1cb9402eda09e7e7b2c54c2bae",
+    "tarball": "https://registry.npmjs.org/getbasis-hamburger-btn/-/getbasis-hamburger-btn-1.0.0.tgz"
+  },
+  "gitHead": "e081a53281309d066a11807f7d47236af5eb9f9f",
+  "homepage": "https://github.com/getbasis/hamburger-btn#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "inc2734",
+      "email": "inc@2inc.org"
+    }
+  ],
+  "name": "getbasis-hamburger-btn",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbasis/hamburger-btn.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}
