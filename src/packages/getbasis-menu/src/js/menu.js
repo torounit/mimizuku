@@ -3,7 +3,7 @@
 import $ from 'jquery';
 
 export default class BasisMenu {
-  constructor(container, params) {
+  constructor(params) {
     this.params = $.extend({
       container: '._c-menu'
     }, params);

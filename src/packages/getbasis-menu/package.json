@@ -2,26 +2,26 @@
   "_args": [
     [
       {
-        "raw": "getbasis-menu@^1.0.1",
+        "raw": "getbasis-menu@^2.0.0",
         "scope": null,
         "escapedName": "getbasis-menu",
         "name": "getbasis-menu",
-        "rawSpec": "^1.0.1",
-        "spec": ">=1.0.1 <2.0.0",
+        "rawSpec": "^2.0.0",
+        "spec": ">=2.0.0 <3.0.0",
         "type": "range"
       },
       "/home/travis/build/inc2734/mimizuku"
     ]
   ],
-  "_from": "getbasis-menu@>=1.0.1 <2.0.0",
-  "_id": "getbasis-menu@1.0.1",
+  "_from": "getbasis-menu@>=2.0.0 <3.0.0",
+  "_id": "getbasis-menu@2.0.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/getbasis-menu",
   "_nodeVersion": "5.8.0",
   "_npmOperationalInternal": {
     "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/getbasis-menu-1.0.1.tgz_1471485040217_0.05199479800648987"
+    "tmp": "tmp/getbasis-menu-2.0.0.tgz_1474941384136_0.47812088392674923"
   },
   "_npmUser": {
     "name": "inc2734",
@@ -30,21 +30,21 @@
   "_npmVersion": "3.7.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "getbasis-menu@^1.0.1",
+    "raw": "getbasis-menu@^2.0.0",
     "scope": null,
     "escapedName": "getbasis-menu",
     "name": "getbasis-menu",
-    "rawSpec": "^1.0.1",
-    "spec": ">=1.0.1 <2.0.0",
+    "rawSpec": "^2.0.0",
+    "spec": ">=2.0.0 <3.0.0",
     "type": "range"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/getbasis-menu/-/getbasis-menu-1.0.1.tgz",
-  "_shasum": "e6a7c3e2a65546ec6e16feb16339b55f47174eee",
+  "_resolved": "https://registry.npmjs.org/getbasis-menu/-/getbasis-menu-2.0.0.tgz",
+  "_shasum": "15848c75bc2a99a2a4666b78f71f0d8fff03bd2d",
   "_shrinkwrap": null,
-  "_spec": "getbasis-menu@^1.0.1",
+  "_spec": "getbasis-menu@^2.0.0",
   "_where": "/home/travis/build/inc2734/mimizuku",
   "author": {
     "name": "inc2734"
@@ -57,10 +57,10 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "e6a7c3e2a65546ec6e16feb16339b55f47174eee",
-    "tarball": "https://registry.npmjs.org/getbasis-menu/-/getbasis-menu-1.0.1.tgz"
+    "shasum": "15848c75bc2a99a2a4666b78f71f0d8fff03bd2d",
+    "tarball": "https://registry.npmjs.org/getbasis-menu/-/getbasis-menu-2.0.0.tgz"
   },
-  "gitHead": "fe4fff4f6f01fb69d037bd8157c271febb468488",
+  "gitHead": "164a29e8b4671bec6fc3e6b57e41371dc5e90425",
   "homepage": "https://github.com/getbasis/menu#readme",
   "license": "MIT",
   "maintainers": [
@@ -77,5 +77,5 @@
     "url": "git+https://github.com/getbasis/menu.git"
   },
   "scripts": {},
-  "version": "1.0.1"
+  "version": "2.0.0"
 }

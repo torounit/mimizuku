@@ -21,7 +21,12 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
 
-new _drawer2.default();
+new _drawer2.default({
+  container: '._p-drawer',
+  drawer: '._p-drawer__body',
+  btn: '._p-drawer__btn',
+  toggleSubmenu: '._p-drawer__toggle'
+});
 
 new _menu2.default();
 
@@ -161,7 +166,7 @@ function _classCallCheck(instance, Constructor) {
 }
 
 var BasisDrawer = function () {
-  function BasisDrawer(container, params) {
+  function BasisDrawer(params) {
     _classCallCheck(this, BasisDrawer);
 
     this.params = _jquery2.default.extend({
@@ -289,7 +294,7 @@ function _classCallCheck(instance, Constructor) {
 }
 
 var BasisOverlayHeader = function () {
-  function BasisOverlayHeader(container, params) {
+  function BasisOverlayHeader(params) {
     _classCallCheck(this, BasisOverlayHeader);
 
     this.params = _jquery2.default.extend({
@@ -405,7 +410,7 @@ function _classCallCheck(instance, Constructor) {
 }
 
 var BasisMenu = function () {
-  function BasisMenu(container, params) {
+  function BasisMenu(params) {
     _classCallCheck(this, BasisMenu);
 
     this.params = _jquery2.default.extend({

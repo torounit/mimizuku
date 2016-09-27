@@ -8,7 +8,7 @@
 import $ from 'jquery';
 
 export default class BasisOverlayHeader {
-  constructor(container, params) {
+  constructor(params) {
     this.params = $.extend({
       container   : '._l-container',
       header      : '._l-header',

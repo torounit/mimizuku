@@ -3,7 +3,7 @@
 import $ from 'jquery';
 
 export default class BasisDrawer {
-  constructor(container, params) {
+  constructor(params) {
     this.params = $.extend({
       container    : '._c-drawer',
       drawer       : '._c-drawer__body',

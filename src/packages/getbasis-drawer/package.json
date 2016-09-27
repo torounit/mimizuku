@@ -2,26 +2,26 @@
   "_args": [
     [
       {
-        "raw": "getbasis-drawer@^1.0.1",
+        "raw": "getbasis-drawer@^2.0.0",
         "scope": null,
         "escapedName": "getbasis-drawer",
         "name": "getbasis-drawer",
-        "rawSpec": "^1.0.1",
-        "spec": ">=1.0.1 <2.0.0",
+        "rawSpec": "^2.0.0",
+        "spec": ">=2.0.0 <3.0.0",
         "type": "range"
       },
       "/home/travis/build/inc2734/mimizuku"
     ]
   ],
-  "_from": "getbasis-drawer@>=1.0.1 <2.0.0",
-  "_id": "getbasis-drawer@1.0.1",
+  "_from": "getbasis-drawer@>=2.0.0 <3.0.0",
+  "_id": "getbasis-drawer@2.0.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/getbasis-drawer",
   "_nodeVersion": "5.8.0",
   "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/getbasis-drawer-1.0.1.tgz_1473523395645_0.9891838969197124"
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/getbasis-drawer-2.0.0.tgz_1474941283655_0.2986142160370946"
   },
   "_npmUser": {
     "name": "inc2734",
@@ -30,21 +30,21 @@
   "_npmVersion": "3.7.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "getbasis-drawer@^1.0.1",
+    "raw": "getbasis-drawer@^2.0.0",
     "scope": null,
     "escapedName": "getbasis-drawer",
     "name": "getbasis-drawer",
-    "rawSpec": "^1.0.1",
-    "spec": ">=1.0.1 <2.0.0",
+    "rawSpec": "^2.0.0",
+    "spec": ">=2.0.0 <3.0.0",
     "type": "range"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/getbasis-drawer/-/getbasis-drawer-1.0.1.tgz",
-  "_shasum": "bb34151db5d5248251567133ccccbffc8a7e5060",
+  "_resolved": "https://registry.npmjs.org/getbasis-drawer/-/getbasis-drawer-2.0.0.tgz",
+  "_shasum": "6c4513ae7a47dc866d9141f35e3c37164d6329e1",
   "_shrinkwrap": null,
-  "_spec": "getbasis-drawer@^1.0.1",
+  "_spec": "getbasis-drawer@^2.0.0",
   "_where": "/home/travis/build/inc2734/mimizuku",
   "author": {
     "name": "inc2734"
@@ -59,10 +59,10 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "bb34151db5d5248251567133ccccbffc8a7e5060",
-    "tarball": "https://registry.npmjs.org/getbasis-drawer/-/getbasis-drawer-1.0.1.tgz"
+    "shasum": "6c4513ae7a47dc866d9141f35e3c37164d6329e1",
+    "tarball": "https://registry.npmjs.org/getbasis-drawer/-/getbasis-drawer-2.0.0.tgz"
   },
-  "gitHead": "66aef29489e6d630cce1d0286a34da4da7f4e5b5",
+  "gitHead": "0a3d5d3de51a05be1c93d17e14736bcf043633a6",
   "homepage": "https://github.com/getbasis/drawer#readme",
   "license": "MIT",
   "maintainers": [
@@ -79,5 +79,5 @@
     "url": "git+https://github.com/getbasis/drawer.git"
   },
   "scripts": {},
-  "version": "1.0.1"
+  "version": "2.0.0"
 }

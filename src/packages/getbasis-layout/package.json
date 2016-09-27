@@ -2,26 +2,26 @@
   "_args": [
     [
       {
-        "raw": "getbasis-layout@^1.0.1",
+        "raw": "getbasis-layout@^2.0.0",
         "scope": null,
         "escapedName": "getbasis-layout",
         "name": "getbasis-layout",
-        "rawSpec": "^1.0.1",
-        "spec": ">=1.0.1 <2.0.0",
+        "rawSpec": "^2.0.0",
+        "spec": ">=2.0.0 <3.0.0",
         "type": "range"
       },
       "/home/travis/build/inc2734/mimizuku"
     ]
   ],
-  "_from": "getbasis-layout@>=1.0.1 <2.0.0",
-  "_id": "getbasis-layout@1.0.1",
+  "_from": "getbasis-layout@>=2.0.0 <3.0.0",
+  "_id": "getbasis-layout@2.0.0",
   "_inCache": true,
   "_installable": true,
   "_location": "/getbasis-layout",
   "_nodeVersion": "5.8.0",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/getbasis-layout-1.0.1.tgz_1471485001104_0.8787745791487396"
+    "tmp": "tmp/getbasis-layout-2.0.0.tgz_1474941523839_0.1268917042762041"
   },
   "_npmUser": {
     "name": "inc2734",
@@ -30,21 +30,21 @@
   "_npmVersion": "3.7.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "getbasis-layout@^1.0.1",
+    "raw": "getbasis-layout@^2.0.0",
     "scope": null,
     "escapedName": "getbasis-layout",
     "name": "getbasis-layout",
-    "rawSpec": "^1.0.1",
-    "spec": ">=1.0.1 <2.0.0",
+    "rawSpec": "^2.0.0",
+    "spec": ">=2.0.0 <3.0.0",
     "type": "range"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/getbasis-layout/-/getbasis-layout-1.0.1.tgz",
-  "_shasum": "922236619568460499fc212cf71249ab1ce08a37",
+  "_resolved": "https://registry.npmjs.org/getbasis-layout/-/getbasis-layout-2.0.0.tgz",
+  "_shasum": "5950a37855df4d891605f5f80e9756c64de43a30",
   "_shrinkwrap": null,
-  "_spec": "getbasis-layout@^1.0.1",
+  "_spec": "getbasis-layout@^2.0.0",
   "_where": "/home/travis/build/inc2734/mimizuku",
   "author": {
     "name": "inc2734"
@@ -59,10 +59,10 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "922236619568460499fc212cf71249ab1ce08a37",
-    "tarball": "https://registry.npmjs.org/getbasis-layout/-/getbasis-layout-1.0.1.tgz"
+    "shasum": "5950a37855df4d891605f5f80e9756c64de43a30",
+    "tarball": "https://registry.npmjs.org/getbasis-layout/-/getbasis-layout-2.0.0.tgz"
   },
-  "gitHead": "01e0fe9da335ccf966bb765c3b04aa492dbb0f71",
+  "gitHead": "b5100a5a080bd5efedad4033ac82a6ded4350fee",
   "homepage": "https://github.com/getbasis/layout#readme",
   "license": "MIT",
   "maintainers": [
@@ -79,5 +79,5 @@
     "url": "git+https://github.com/getbasis/layout.git"
   },
   "scripts": {},
-  "version": "1.0.1"
+  "version": "2.0.0"
 }
