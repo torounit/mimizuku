@@ -11,16 +11,30 @@ Minizuku is a WordPress theme to develop the child theme.
 2. `$ npm run gulp build`
 
 ## Start up build-in server
-* `$ bash bin/server.sh`
+```
+$ bash app/bin/server.sh
+```
 
 ## Import theme unit test data
-* `bash bin/theme-unit-test.sh`
+```
+bash app/bin/theme-unit-test.sh
+```
 
 ## Directory structure
 
 ### Directory for layout templates
 ```
 /layout/wrapper
+```
+
+### Directory for header templates
+```
+/layout/header
+```
+
+### Directory for footer templates
+```
+/layout/footer
 ```
 
 ### Directory for view templates
@@ -34,6 +48,13 @@ Minizuku is a WordPress theme to develop the child theme.
 ```
 
 Mimizuku tries to load the view template according to the URL. For example when URL is http://example.com/foo/bar, tries to laod from `/views/static/foo/bar.php`.
+
+## Using view controller
+```
+$controller = new \Mimizuku\App\Controllers\Controller();
+$controller->layout( 'right-sidebar' );
+$controller->render( 'content/content', 'news' );
+```
 
 ## Filter hooks
 
