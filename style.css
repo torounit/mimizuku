@@ -5,14 +5,14 @@ Theme URI: https://github.com/inc2734/mimizuku/
 Author: inc2734
 Author URI: http://2inc.org
 Description: Minizuku is a WordPress theme to develop the child theme.
-Version: 0.1.4
+Version: 0.1.5
 License: GPLv2 or later
 License URI: license.txt
 Tags: editor-style, featured-images
 Text Domain: mimizuku
 */
 /*
- * Name: Basis v1.0.5
+ * Name: Basis v2.0.0
  * Description: The flexbox based CSS framework.
  * Author: Takashi Kitajima ( inc2734 )
  * Author URL: http://2inc.org
@@ -193,10 +193,48 @@ label {
   overflow: hidden;
 }
 ._c-checkbox {
+  position: relative;
   display: inline-block;
-}
-._c-checkbox [type="checkbox"] {
   margin-right: 0.5rem;
+  padding-left: 1.5rem;
+}
+._c-checkbox > [type="checkbox"],
+._c-checkbox__label::before {
+  position: absolute;
+  top: 0.25rem;
+  left: 0;
+  height: 1rem;
+  width: 1rem;
+}
+._c-checkbox > [type="checkbox"] {
+  cursor: pointer;
+  opacity: 0 !important;
+  outline: 0;
+  z-index: 1;
+}
+._c-checkbox__label::before {
+  content: '';
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  z-index: 0;
+}
+._c-checkbox__label::after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  background-color: #5c5c5c;
+  border-radius: 2px;
+  height: 0.5rem;
+  width: 0.5rem;
+  left: 0.25rem;
+  top: 0.5rem;
+  opacity: 0;
+  z-index: 0;
+}
+._c-checkbox > input:checked ~ ._c-checkbox__label::after {
+  opacity: 1;
 }
 ._c-container-fluid,
 ._c-container {
@@ -300,6 +338,7 @@ textarea._c-input-group__control {
 }
 ._c-hero__content {
   -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
 }
 ._c-hero__footer {
@@ -376,10 +415,48 @@ textarea._c-input-group__control {
   flex: 1;
 }
 ._c-radio {
+  position: relative;
   display: inline-block;
-}
-._c-radio [type="radio"] {
   margin-right: 0.5rem;
+  padding-left: 1.5rem;
+}
+._c-radio > [type="radio"],
+._c-radio__label::before {
+  position: absolute;
+  top: 0.25rem;
+  left: 0;
+  height: 1rem;
+  width: 1rem;
+}
+._c-radio > [type="radio"] {
+  cursor: pointer;
+  opacity: 0 !important;
+  outline: 0;
+  z-index: 1;
+}
+._c-radio__label::before {
+  content: '';
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  z-index: 0;
+}
+._c-radio__label::after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  background-color: #5c5c5c;
+  border-radius: 100%;
+  height: 0.5rem;
+  width: 0.5rem;
+  left: 0.25rem;
+  top: 0.5rem;
+  opacity: 0;
+  z-index: 0;
+}
+._c-radio > input:checked ~ ._c-radio__label::after {
+  opacity: 1;
 }
 ._c-row {
   display: -ms-flexbox;
@@ -391,6 +468,38 @@ textarea._c-input-group__control {
   -ms-flex: 1;
   flex: 1;
   max-width: 100%;
+}
+._c-select {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+._c-select::after {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  margin-top: -4px;
+  content: '';
+  display: block;
+  border: 6px solid transparent;
+  border-top: 8px solid #5c5c5c;
+  width: 0;
+  height: 0;
+}
+._c-select > select {
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  line-height: 1;
+  outline: 0;
+  padding: 0.375rem 1.5rem 0.375rem 0.75rem;
+  width: 130%;
 }
 ._c-btn--block {
   display: block;
@@ -443,7 +552,6 @@ textarea._c-input-group__control {
 ._c-media--middle,
 ._p-comment--middle {
   -ms-flex-align: center;
-  -ms-grid-row-align: center;
   align-items: center;
 }
 ._c-media--reverse ._c-media__figure,
@@ -485,22 +593,18 @@ textarea._c-input-group__control {
 }
 ._c-row--top {
   -ms-flex-align: start;
-  -ms-grid-row-align: flex-start;
   align-items: flex-start;
 }
 ._c-row--bottom {
   -ms-flex-align: end;
-  -ms-grid-row-align: flex-end;
   align-items: flex-end;
 }
 ._c-row--middle {
   -ms-flex-align: center;
-  -ms-grid-row-align: center;
   align-items: center;
 }
 ._c-row--baseline {
   -ms-flex-align: baseline;
-  -ms-grid-row-align: baseline;
   align-items: baseline;
 }
 ._c-row--collapse {
@@ -579,22 +683,18 @@ textarea._c-input-group__control {
   }
   ._c-row--md-top {
     -ms-flex-align: start;
-    -ms-grid-row-align: flex-start;
     align-items: flex-start;
   }
   ._c-row--md-bottom {
     -ms-flex-align: end;
-    -ms-grid-row-align: flex-end;
     align-items: flex-end;
   }
   ._c-row--md-middle {
     -ms-flex-align: center;
-    -ms-grid-row-align: center;
     align-items: center;
   }
   ._c-row--md-baseline {
     -ms-flex-align: baseline;
-    -ms-grid-row-align: baseline;
     align-items: baseline;
   }
   ._c-row--md-collapse {
@@ -674,22 +774,18 @@ textarea._c-input-group__control {
   }
   ._c-row--lg-top {
     -ms-flex-align: start;
-    -ms-grid-row-align: flex-start;
     align-items: flex-start;
   }
   ._c-row--lg-bottom {
     -ms-flex-align: end;
-    -ms-grid-row-align: flex-end;
     align-items: flex-end;
   }
   ._c-row--lg-middle {
     -ms-flex-align: center;
-    -ms-grid-row-align: center;
     align-items: center;
   }
   ._c-row--lg-baseline {
     -ms-flex-align: baseline;
-    -ms-grid-row-align: baseline;
     align-items: baseline;
   }
   ._c-row--lg-collapse {
@@ -2062,6 +2158,9 @@ textarea._c-input-group__control {
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
   }
+}
+._c-select--block {
+  display: block;
 }
 ._u-animate {
   transition: all 0.1s ease-out;

@@ -2,26 +2,25 @@
   "_args": [
     [
       {
-        "raw": "getbasis@^1.0.5",
+        "raw": "getbasis@^2.0.0",
         "scope": null,
         "escapedName": "getbasis",
         "name": "getbasis",
-        "rawSpec": "^1.0.5",
-        "spec": ">=1.0.5 <2.0.0",
+        "rawSpec": "^2.0.0",
+        "spec": ">=2.0.0 <3.0.0",
         "type": "range"
       },
       "/home/travis/build/inc2734/mimizuku"
     ]
   ],
-  "_from": "getbasis@>=1.0.5 <2.0.0",
-  "_id": "getbasis@1.0.5",
+  "_from": "getbasis@>=2.0.0 <3.0.0",
+  "_id": "getbasis@2.0.0",
   "_inCache": true,
-  "_installable": true,
   "_location": "/getbasis",
   "_nodeVersion": "5.8.0",
   "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/getbasis-1.0.5.tgz_1473512596649_0.891605902928859"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/getbasis-2.0.0.tgz_1475418604866_0.08106182678602636"
   },
   "_npmUser": {
     "name": "inc2734",
@@ -30,21 +29,21 @@
   "_npmVersion": "3.7.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "getbasis@^1.0.5",
+    "raw": "getbasis@^2.0.0",
     "scope": null,
     "escapedName": "getbasis",
     "name": "getbasis",
-    "rawSpec": "^1.0.5",
-    "spec": ">=1.0.5 <2.0.0",
+    "rawSpec": "^2.0.0",
+    "spec": ">=2.0.0 <3.0.0",
     "type": "range"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/getbasis/-/getbasis-1.0.5.tgz",
-  "_shasum": "6ae8f66152e4243b6a03efbe4a45638cc3a5fb77",
+  "_resolved": "https://registry.npmjs.org/getbasis/-/getbasis-2.0.0.tgz",
+  "_shasum": "880498107d45f74feb337b9e199dfb5555ab1207",
   "_shrinkwrap": null,
-  "_spec": "getbasis@^1.0.5",
+  "_spec": "getbasis@^2.0.0",
   "_where": "/home/travis/build/inc2734/mimizuku",
   "author": {
     "name": "inc2734"
@@ -74,10 +73,10 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "6ae8f66152e4243b6a03efbe4a45638cc3a5fb77",
-    "tarball": "https://registry.npmjs.org/getbasis/-/getbasis-1.0.5.tgz"
+    "shasum": "880498107d45f74feb337b9e199dfb5555ab1207",
+    "tarball": "https://registry.npmjs.org/getbasis/-/getbasis-2.0.0.tgz"
   },
-  "gitHead": "cfa28300700eb52380dc0bef4b4f763b8f8d5c61",
+  "gitHead": "7a05e6270945d7f684a36dc2cc64d9fbefe505ab",
   "homepage": "http://getbasis.github.io/",
   "keywords": [
     "css",
@@ -110,5 +109,5 @@
     "stylus": "stylus",
     "stylus-test": "stylus tests/tests.styl && cat tests/tests.css"
   },
-  "version": "1.0.5"
+  "version": "2.0.0"
 }
