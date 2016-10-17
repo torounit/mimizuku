@@ -87,9 +87,15 @@ class View {
 	protected function _render() {
 		$layout = apply_filters( 'mimizuku_layout', $this->layout );
 		$slug   = \Mimizuku\App\Models\Config::get( 'app/config/directory', 'layout' );
-		$layout_template_path = get_template_directory() . '/' . $slug . '/' . $layout . '.php';
-		if ( file_exists( $layout_template_path ) ) {
-			include( $layout_template_path );
+
+		$template_file_name     = $slug . '/' . $layout . '.php';
+		$layout_child_path  = get_stylesheet_directory() . '/' . $template_file_name;
+		$layout_parent_path = get_template_directory() . '/' . $template_file_name;
+
+		if ( file_exists( $layout_child_path ) ) {
+			include( $layout_child_path );
+		} elseif ( file_exists( $layout_parent_path ) ) {
+			include( $layout_parent_path );
 		}
 	}
 
