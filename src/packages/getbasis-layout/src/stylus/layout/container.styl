@@ -1,3 +1,11 @@
+.{bs-prefix}l-container--sticky-footer,
+html.{bs-prefix}disable-window-scroll {
+  > .{bs-prefix}l-header,
+  > .{bs-prefix}l-footer {
+    flex: none;
+  }
+}
+
 //
 // <div id="container" class="_l-container">
 //     <header id="header" class="_l-header" role="banner">
@@ -22,12 +30,11 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-}
 
-.{bs-prefix}l-header,
-.{bs-prefix}l-footer {
-  flex: none;
+    > .{bs-prefix}l-contents {
+      flex: 1 0 auto;
+    }
+  }
 }
 
 .{bs-prefix}l-header {
@@ -45,10 +52,6 @@
   &--is-scrolled {
     // Used js
   }
-}
-
-.{bs-prefix}l-contents {
-  flex: 1 0 auto;
 }
 
 //
