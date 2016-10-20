@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "getbasis-balloon@^1.0.0",
+        "scope": null,
+        "escapedName": "getbasis-balloon",
+        "name": "getbasis-balloon",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "/home/travis/build/inc2734/mimizuku"
+    ]
+  ],
+  "_from": "getbasis-balloon@>=1.0.0 <2.0.0",
+  "_id": "getbasis-balloon@1.0.0",
+  "_inCache": true,
+  "_location": "/getbasis-balloon",
+  "_nodeVersion": "5.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/getbasis-balloon-1.0.0.tgz_1476881542638_0.6688114821445197"
+  },
+  "_npmUser": {
+    "name": "inc2734",
+    "email": "inc@2inc.org"
+  },
+  "_npmVersion": "3.7.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "getbasis-balloon@^1.0.0",
+    "scope": null,
+    "escapedName": "getbasis-balloon",
+    "name": "getbasis-balloon",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/getbasis-balloon/-/getbasis-balloon-1.0.0.tgz",
+  "_shasum": "93eab7f87055cb218d3ff6e464d0e13b8e0fc67f",
+  "_shrinkwrap": null,
+  "_spec": "getbasis-balloon@^1.0.0",
+  "_where": "/home/travis/build/inc2734/mimizuku",
+  "author": {
+    "name": "inc2734"
+  },
+  "bugs": {
+    "url": "https://github.com/getbasis/balloon/issues"
+  },
+  "dependencies": {},
+  "description": "This is a css module for the Basis.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "93eab7f87055cb218d3ff6e464d0e13b8e0fc67f",
+    "tarball": "https://registry.npmjs.org/getbasis-balloon/-/getbasis-balloon-1.0.0.tgz"
+  },
+  "gitHead": "4620e6ed8a42dc97aa77b07f8bc42c99361f8a4f",
+  "homepage": "https://github.com/getbasis/balloon#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "inc2734",
+      "email": "inc@2inc.org"
+    }
+  ],
+  "name": "getbasis-balloon",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbasis/balloon.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}

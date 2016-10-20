@@ -5,7 +5,7 @@ Theme URI: https://github.com/inc2734/mimizuku/
 Author: inc2734
 Author URI: http://2inc.org
 Description: Minizuku is a WordPress theme to develop the child theme.
-Version: 0.2.0
+Version: 0.3.0
 License: GPLv2 or later
 License URI: license.txt
 Tags: editor-style, featured-images
@@ -271,7 +271,7 @@ h1 {
   font-size: 1rem;
   line-height: 1.5;
   margin-top: 0rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0rem;
 }
 h2 {
   font-size: 32px;
@@ -284,14 +284,14 @@ h3 {
   font-size: 24px;
   font-size: 1.5rem;
   line-height: 1.333333333333333;
-  margin-top: 3rem;
+  margin-top: 2.625rem;
   margin-bottom: 1.5rem;
 }
 h4 {
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.4;
-  margin-top: 3rem;
+  margin-top: 2.625rem;
   margin-bottom: 1.5rem;
 }
 h5 {
@@ -2616,21 +2616,7 @@ body {
   background-color: #fff;
 }
 h1 {
-  margin: 0;
   font-weight: normal;
-}
-h2 {
-  margin: 3rem 0rem 1.5rem 0rem;
-}
-h3 {
-  margin: 3rem 0rem 1.5rem 0rem;
-}
-h4 {
-  margin: 2.25rem 0rem 1.5rem 0rem;
-}
-h5,
-h6 {
-  margin: 1.5rem 0rem 0.75rem 0rem;
 }
 input,
 textarea,
@@ -2820,6 +2806,173 @@ html._disable-window-scroll ._l-container {
 ._l-header ._p-site-branding {
   padding: 0.75rem 0rem;
 }
+._c-balloon-left,
+._c-balloon-right {
+  display: -ms-flexbox;
+  display: flex;
+}
+._c-balloon-left__figure,
+._c-balloon-right__figure {
+  -ms-flex: none;
+  flex: none;
+  -ms-flex-preferred-size: 48px;
+  flex-basis: 48px;
+  width: 48px;
+  max-width: 48px;
+}
+._c-balloon-left__figure > *,
+._c-balloon-right__figure > * {
+  margin-top: 0;
+  vertical-align: top;
+}
+._c-balloon-left__body,
+._c-balloon-right__body {
+  position: relative;
+  display: block;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1.125rem;
+}
+._c-balloon-left__body::before,
+._c-balloon-right__body::before,
+._c-balloon-left__body::after,
+._c-balloon-right__body::after {
+  content: '';
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: transparent;
+  height: 0;
+  width: 0;
+}
+._c-balloon-left__figure {
+  margin: 0rem 1.5rem 0rem 0rem;
+}
+._c-balloon-left__body::before,
+._c-balloon-left__body::after {
+  top: 24px;
+  transform: translateY(-50%);
+  border-width: 8px 10px 8px 0;
+}
+._c-balloon-left__body::before {
+  border-right-color: #ccc;
+  left: -10px;
+  right: auto;
+}
+._c-balloon-left__body::after {
+  border-right-color: #fff;
+  left: -8px;
+  right: auto;
+}
+._c-balloon-right__figure {
+  margin: 0rem 0rem 0rem 1.5rem;
+  -ms-flex-order: 1;
+  order: 1;
+}
+._c-balloon-right__body::before,
+._c-balloon-right__body::after {
+  top: 24px;
+  transform: translateY(-50%);
+  border-width: 8px 0 8px 10px;
+}
+._c-balloon-right__body::before {
+  border-left-color: #ccc;
+  right: -10px;
+  left: auto;
+}
+._c-balloon-right__body::after {
+  border-left-color: #fff;
+  right: -8px;
+  left: auto;
+}
+._c-drawer,
+._p-drawer {
+  position: relative;
+}
+._c-drawer__body,
+._p-drawer__body {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-100%);
+  transition: transform 0.1s ease-out;
+  width: 15rem;
+  max-width: 80%;
+  background-color: #444;
+  overflow-y: auto;
+}
+._c-drawer__body--fixed,
+._p-drawer__body--fixed {
+  position: fixed;
+}
+._c-drawer__body[aria-expanded="true"],
+._p-drawer__body[aria-expanded="true"] {
+  transform: translateX(0);
+}
+._c-drawer__btn,
+._p-drawer__btn {
+  position: relative;
+  z-index: 11;
+}
+._c-drawer__submenu,
+._p-drawer__submenu {
+  height: 0;
+  overflow: hidden;
+}
+[aria-expanded="true"] > ._c-drawer__submenu,
+[aria-expanded="true"] > ._p-drawer__submenu {
+  height: auto;
+  overflow: visible;
+}
+._c-drawer__toggle,
+._p-drawer__toggle {
+  cursor: pointer;
+}
+._c-hamburger-btn {
+  position: relative;
+  display: inline-block;
+  box-sizing: content-box;
+  height: 16px;
+  width: 22px;
+  padding: 5px;
+  cursor: pointer;
+}
+._c-hamburger-btn__bar {
+  position: absolute;
+  right: 5px;
+  left: 5px;
+  display: block;
+  height: 2px;
+  background-color: #333;
+  transition: transform 0.1s, background-color 0.1s;
+}
+._c-hamburger-btn__bar:nth-child(1) {
+  top: 5px;
+}
+._c-hamburger-btn__bar:nth-child(2) {
+  top: 12px;
+}
+._c-hamburger-btn__bar:nth-child(3) {
+  top: 19px;
+}
+.is-close > ._c-hamburger-btn__bar:nth-child(1),
+.is-close > ._c-hamburger-btn__bar:nth-child(3) {
+  top: 12px;
+}
+.is-close > ._c-hamburger-btn__bar:nth-child(1) {
+  transform: rotate(45deg);
+}
+.is-close > ._c-hamburger-btn__bar:nth-child(2) {
+  background-color: transparent;
+}
+.is-close > ._c-hamburger-btn__bar:nth-child(3) {
+  transform: rotate(-45deg);
+}
 ._c-menu--bar,
 ._c-menu--auto {
   display: -ms-flexbox;
@@ -2908,91 +3061,6 @@ html._disable-window-scroll ._l-container {
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
 }
-._c-drawer,
-._p-drawer {
-  position: relative;
-}
-._c-drawer__body,
-._p-drawer__body {
-  position: absolute;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  transform: translateX(-100%);
-  transition: transform 0.1s ease-out;
-  width: 15rem;
-  max-width: 80%;
-  background-color: #444;
-  overflow-y: auto;
-}
-._c-drawer__body--fixed,
-._p-drawer__body--fixed {
-  position: fixed;
-}
-._c-drawer__body[aria-expanded="true"],
-._p-drawer__body[aria-expanded="true"] {
-  transform: translateX(0);
-}
-._c-drawer__btn,
-._p-drawer__btn {
-  position: relative;
-  z-index: 11;
-}
-._c-drawer__submenu,
-._p-drawer__submenu {
-  height: 0;
-  overflow: hidden;
-}
-[aria-expanded="true"] > ._c-drawer__submenu,
-[aria-expanded="true"] > ._p-drawer__submenu {
-  height: auto;
-  overflow: visible;
-}
-._c-drawer__toggle,
-._p-drawer__toggle {
-  cursor: pointer;
-}
-._c-hamburger-btn {
-  position: relative;
-  display: inline-block;
-  box-sizing: content-box;
-  height: 16px;
-  width: 22px;
-  padding: 5px;
-  cursor: pointer;
-}
-._c-hamburger-btn__bar {
-  position: absolute;
-  right: 5px;
-  left: 5px;
-  display: block;
-  height: 2px;
-  background-color: #333;
-  transition: transform 0.1s, background-color 0.1s;
-}
-._c-hamburger-btn__bar:nth-child(1) {
-  top: 5px;
-}
-._c-hamburger-btn__bar:nth-child(2) {
-  top: 12px;
-}
-._c-hamburger-btn__bar:nth-child(3) {
-  top: 19px;
-}
-.is-close > ._c-hamburger-btn__bar:nth-child(1),
-.is-close > ._c-hamburger-btn__bar:nth-child(3) {
-  top: 12px;
-}
-.is-close > ._c-hamburger-btn__bar:nth-child(1) {
-  transform: rotate(45deg);
-}
-.is-close > ._c-hamburger-btn__bar:nth-child(2) {
-  background-color: transparent;
-}
-.is-close > ._c-hamburger-btn__bar:nth-child(3) {
-  transform: rotate(-45deg);
-}
 ._p-comment__reply a {
   font-size: 14px;
   font-size: 0.875rem;
@@ -3078,7 +3146,7 @@ html._disable-window-scroll ._l-container {
   padding: 0.75rem 1.5rem 0;
 }
 ._p-drawer__subitem {
-  padding: 0.75rem 0 0;
+  padding: 0.75rem 1.5rem 0 0;
 }
 ._p-drawer__toggle {
   position: absolute;
