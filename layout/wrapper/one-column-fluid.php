@@ -15,21 +15,9 @@
 	<?php get_header(); ?>
 
 	<div class="_l-contents" role="document">
-		<div class="_c-container">
-			<?php get_template_part( 'template-parts/breadcrumbs' ); ?>
-
-			<div class="_c-row _c-row--margin">
-				<div class="_c-row__col _c-row__col--1-1 _c-row__col--lg-3-4">
-					<main class="_l-main" role="main">
-						<?php $this->view(); ?>
-					</main>
-				</div>
-
-				<div class="_c-row__col _c-row__col--1-1 _c-row__col--lg-1-4">
-					<?php get_sidebar(); ?>
-				</div>
-			</div>
-		</div>
+		<main class="_l-main" role="main">
+			<?php $this->view(); ?>
+		</main>
 	</div>
 
 	<?php get_footer(); ?>

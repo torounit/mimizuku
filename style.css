@@ -5,7 +5,7 @@ Theme URI: https://github.com/inc2734/mimizuku/
 Author: inc2734
 Author URI: http://2inc.org
 Description: Minizuku is a WordPress theme to develop the child theme.
-Version: 0.3.0
+Version: 0.4.0
 License: GPLv2 or later
 License URI: license.txt
 Tags: editor-style, featured-images
@@ -2790,6 +2790,9 @@ html._disable-window-scroll ._l-container {
 ._l-container {
   overflow: hidden;
 }
+._l-contents ._p-breadcrumbs {
+  margin: 0rem 0rem 0.75rem;
+}
 ._l-footer {
   margin: 3rem 0rem 0rem;
 }
@@ -3060,6 +3063,42 @@ html._disable-window-scroll ._l-container {
 ._c-menu--auto ._c-menu__item {
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
+}
+._p-breadcrumbs {
+  list-style: none;
+  margin: 0;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.571428571428571;
+  padding: 0;
+}
+._p-breadcrumbs,
+._p-breadcrumbs a {
+  color: #999;
+}
+._p-breadcrumbs a {
+  text-decoration: underline;
+}
+._p-breadcrumbs__item {
+  margin: 0;
+  display: inline;
+  padding: 0;
+}
+._p-breadcrumbs__item::after {
+  margin: 0rem 0.1875rem;
+}
+._p-breadcrumbs__item:nth-child(n + 2) {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+._p-breadcrumbs__item:nth-child(n + 2)::before {
+  content: "\f105";
+}
+._p-breadcrumbs__item:nth-child(n + 2)::before {
+  margin: 0rem 0.1875rem;
 }
 ._p-comment__reply a {
   font-size: 14px;

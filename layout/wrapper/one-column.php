@@ -19,13 +19,13 @@
 			<?php get_template_part( 'template-parts/breadcrumbs' ); ?>
 
 			<div class="_c-row _c-row--margin">
-				<div class="_c-row__col _c-row__col--1-1 _c-row__col--lg-3-4">
+				<div class="_c-row__col _c-row__col--1-1">
 					<main class="_l-main" role="main">
 						<?php $this->view(); ?>
 					</main>
 				</div>
 
-				<div class="_c-row__col _c-row__col--1-1 _c-row__col--lg-1-4">
+				<div class="_c-row__col _c-row__col--1-1">
 					<?php get_sidebar(); ?>
 				</div>
 			</div>
