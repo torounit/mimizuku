@@ -19,7 +19,7 @@ Minizuku is a WordPress theme to develop the child theme.
 * IE10 + Modern browser
 
 ## Get Started
-Mimizuku is a parent theme. So you should download the Mimizuku child theme. See https://github.com/inc2734/mimizuku-child. If you build this child theme, aloso downloaded Mimizuku by composer.
+**Mimizuku is a parent theme. So you should download the Mimizuku child theme. See https://github.com/inc2734/mimizuku-child. If you build this child theme, aloso downloaded Mimizuku by composer.**
 
 ## Theme features
 * Having layout and view templates
@@ -33,10 +33,10 @@ Mimizuku is a parent theme. So you should download the Mimizuku child theme. See
 ## Third-party resources
 
 ### Font Awesome (Web fonts)
-Font License: SIL OFL 1.1
-Code License: MIT License
-Source: https://fortawesome.github.io/Font-Awesome/
+* Font License: SIL OFL 1.1
+* Code License: MIT License
+* Source: https://fortawesome.github.io/Font-Awesome/
 
 ### Basis (Stylus/CSS framework)
-License: MIT License
-Source: https://getbasis.github.io/
+* License: MIT License
+* Source: https://getbasis.github.io/
